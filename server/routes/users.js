@@ -23,7 +23,8 @@ router.get(
             imgage : req.user.image,
             id: req.user.gitHubId
         }
-        res.json(payload)
+        // res.json(payload)
+        res.redirect('http://localhost:3000/')
     }
 );
 
